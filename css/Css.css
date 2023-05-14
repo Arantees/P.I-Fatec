@@ -5,17 +5,17 @@ header{
 border-bottom: solid 2px;
 border-bottom-right-radius: 5px;
 }
-#Português:hover{
+#portugues:hover{
     background-color: rgb(255, 79, 79);
 }
-#Matemática:hover{
+#matematica:hover{
     background-color: rgb(70, 70, 255);
 }
-#História:hover{
+#historia:hover{
     background-color: rgb(255, 255, 68);
 }#Biologia:hover{
     background-color: rgb(0, 255, 0);
-}#Química:hover{
+}#Quimica:hover{
     background-color: rgb(172, 3, 172);
 }#Física:hover{
     background-color: rgb(255, 176, 30);
@@ -30,5 +30,30 @@ border-bottom-right-radius: 5px;
     background-color: rgb(189, 176, 0);
 }#Sociologia:hover{
     background-color: rgb(255, 0, 255);
+}
+
+.titulo{
+    justify-content: center;
+    color: blue
+}
+ 
+
+
+.section1 {
+    margin-top: 130px;
+}
+
+
+.botoes button{
+    margin: 20px 50px 10px 10px;
+    border-radius: 25px;
+    height: 115px;
+    width: 115px;
+    background-color: blue;
+    color: white;
+}
+
+body {
+    background-color: #ccc !important;
 }
 /* Rodapé */
