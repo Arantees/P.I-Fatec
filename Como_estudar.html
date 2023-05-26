@@ -1,59 +1,185 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nome do Projeto</title>
-    <link rel="stylesheet" href="./Css.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-</head>
-<body>
-    <Header class="navbar navbar-expand-lg navbar-light bg-light">
-      <img id="Logo" src="../Fatec/Dev web/Img/images.jpg" width="100px">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="./Home.html">Nome do projeto</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="Como_estudar.html">Como Estudar <span class="sr-only">(Página atual)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Universidades
-                    </a>
-                    <div id="menu_vestibular" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="./Universidades/Enem.html">ENEM</a>
-                      <a class="dropdown-item" href="./Universidades/Unicamp.html">UNICAMP</a>
-                      <a class="dropdown-item" href="./Universidades/USP.html">USP</a>
-                      <a class="dropdown-item" href="./Universidades/UNESP.html">UNESP</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Matérias
-                  </a>
-                  <div id="menu_matérias" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a id="Português" class="dropdown-item" href="./Materias/Portugues.html">Português</a>
-                    <a id="Matemática" class="dropdown-item" href="./Materias/Matematica.html">Matemática</a>
-                    <a id="História" class="dropdown-item" href="./Materias/Historia.html">História</a>
-                    <a id="Biologia" class="dropdown-item" href="./Materias/Biologia.html">Biologia</a>
-                    <a id="Química" class="dropdown-item" href="./Materias/Quimica.html">Química</a>
-                    <a id="Física" class="dropdown-item" href="./Materias/Fisica.html">Física</a>
-                    <a id="Inglês" class="dropdown-item" href="./Materias/Ingles.html">Inglês</a>
-                    <a id="Geografia" class="dropdown-item" href="./Materias/Geografia.html">Geografia</a>
-                    <a id="Redação" class="dropdown-item" href="./Materias/Redacao.html">Redação</a>
-                    <a id="Filosofia" class="dropdown-item" href="./Materias/Filosofia.html">Filosofia</a>
-                    <a id="Sociologia" class="dropdown-item" href="./Materias/Sociologia.html">Sociologia</a>
-                  </div>
-                </li>
-              </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apreendere</title>
+    <link rel="stylesheet" href="./css/Css.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark navCor flex-column fixed-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-2">
+              <img src="./design/imagens/Aprendere.jpeg" class="img-fluid" />
             </div>
-          </nav>
-    </Header>
+            <div class="col-10">
+              <a class="h1 titulo">Apreendere Cursos</a>
+              <div class="d-flex flex-row justify-content-center w-100">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Alterna navegação"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div
+                  class="collapse navbar-collapse w-100"
+                  id="navbarNavDropdown"
+                >
+                  <ul class="navbar-nav justify-content-around w-100">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Como_estudar.html">Como Estudar</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdownUniversidadeLink"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Universidades
+                      </a>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdownUniversidadeLink"
+                      >
+                        <a class="dropdown-item" href="#">ENEM</a>
+                        <a class="dropdown-item" href="#">UNICAMP</a>
+                        <a class="dropdown-item" href="#">USP</a>
+                        <a class="dropdown-item" href="#">UNESP</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdownMenuLink"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Matérias
+                      </a>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink"
+                      >
+                        <a class="dropdown-item" href="#">Português</a>
+                        <a class="dropdown-item" href="#">Matemática</a>
+                        <a class="dropdown-item" href="#">História</a>
+                        <a class="dropdown-item" href="#">Biologia</a>
+                        <a class="dropdown-item" href="#">Química</a>
+                        <a class="dropdown-item" href="#">Física</a>
+                        <a class="dropdown-item" href="#">Inglês</a>
+                        <a class="dropdown-item" href="#">Geografia</a>
+                        <a class="dropdown-item" href="#">Redação</a>
+                        <a class="dropdown-item" href="#">Filosofia</a>
+                        <a class="dropdown-item" href="#">Sociologia</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <section>
+      <div class="container">
+        <div class="row">
+          <div>
+            <H1>Como Aprendemos?</H1>
+            <p> Segundo	 o	 professor	 Pierluigi	 Piazzi	 ou	 prof	 Pier,	 autor	 do	 livro	 Aprendendo	
+              Inteligência,	Manual	de	Instruções	do	Cérebro	para	Estudantes	em	Geral,	estudar	não	é	uma	
+              questão	 de	 quantidade,	 mas	 sim	 de	 qualidade.	 Não	 se	 deve	 estudar	 mais,	 mas	 estudar	
+              melhor. Para	isso,	ele	propõe técnicas em	que	é	possível	render	mais	nos	estudos	mesmo	que	
+              se tenha	pouco	tempo	disponível.</p>
+            <p>O	professor	Pier faz	uma	analogia	entre o cérebro	humano	e	o computador,	em	que	o
+              sistema	límbico	funciona	como	memória	RAM,	ou	seja,	memória	de	curto	prazo	que	é	volátil	e	
+              liberada/<strong>apagada</strong>  com	o	desligamento	da	máquina,	por	isso	a	necessidade	de	armazenamento	
+              dos	dados	no	córtex	cerebral	“equivalente” humano	ao	disco	rígido	computacional	(Hard Disc	
+              ou	HD)	no	qual	o	armazenamento	é	permanente.	No	caso	do	cérebro	humano,	podemos	citar	a	
+              importância	do	sono	no	processo	de	liberação	de	memória	de	curto	prazo	e	armazenamento	
+              definitivo da	informação.	De	modo	simples,	nas	palavras	do	próprio	professor:	“...o	sono	não	é	
+              consequência	de	um	corpo	cansado.	O	sono	é	causado	pela	necessidade	de	esvaziar	a	memória	
+              RAM.”	 A	 determinação	 do	 que	 será	 armazenado	 pelo	 cérebro	 está	 ligada ao	 modo	 de	
+              recebimento	 da	 informação.	 A	 informação	 que	 foi	 recebida	 com	 alguma	 emoção,	 do	 tipo
+              positiva	 (alegre,	 prazerosa)	 ou	 negativa	 (triste,	 trágica)	 será	 a	 informação	 armazenada	 de	
+              modo	 permanente	 durante	 o	 sono,	 mas	 o	 que	 foi	 recebido	 de	 forma	 indiferente	 ou	 tediosa	
+              será	descartada durante	o	sono.	Por	isso,	atente-se	na	emoção	com	a	qual	tem	estudado	e	no	
+              tempo	e	na	qualidade	do	sono.</p>
+              <p>É	ainda	defendido	por	Piezzi, que	a aprendizagem	acontece	na	prática	individual,	pois	
+                estudos	 realizados	 em	 grupo	 não	 respeitam	 o	 ritmo	 de	 cada	 estudante,	 que	 pode	 ser	 mais	
+                rápido	ou	mais	lento	dependendo,	por	exemplo, da	familiaridade	com	o	tema.	A	revisão	deve	
+                ser	 realizada em	 local	 tranquilo,	 sem	 distrações,	 com	 “um	 lápis em	 atividade	 sobre	 um	
+                pedaço	 de	 papel”,	 pois	 “o	 ato	 de	 escrever	 permite	 maior	 fixação	 posterior...”.	 Essas	
+                “ferramentas”	 possibilitam	 o	 elencar	 de	 palavras-chave e a	 criação	 de esquemas	 de	 estudo	
+                com	os	pontos	mais	importantes.	Permitindo	assim,	que	o	estudante “seja	o	professor	de	si	
+                mesmo”.
+              </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h1>Vamos iniciar os estudos!!</h1>
+            <p>
+              <strong>
+                Esse site é destinado para pessoas como você que tem interesse
+                em fazer uma graduação, entretanto não tem tempo ou dinheiro
+                para fazer um cursinho.</strong
+              >
+            </p>
+            <p>
+              Ao contrário do senso comum, estudar não é um processo demorado
+              quando feito de maneira correta.
+            </p>
+            <p>
+              Por isso o <strong>Apreendere</strong> formula uma rotina de
+              estudo ideal, demonstrando de maneira cíentifica como estudar e
+              como o cérebro reage aos estímulos causados
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
     <footer>
       <H6> © "Nome do Projeto"</H6>
     </footer>
