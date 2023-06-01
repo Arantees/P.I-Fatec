@@ -10,7 +10,6 @@ border-bottom-right-radius: 5px;
     height: 100%;
     position: absolute;    
     margin-right: 100%;
-
 }
 
 .btn{
@@ -22,21 +21,17 @@ border-bottom-right-radius: 5px;
     width: 200px;
 }
 section{
-    margin-top: 5%;
+    margin-top: 5%;;
 }
 section h1{
-    color: rgb(46, 60, 182);
-    font-family:'Franklin Gothic Medium'
-    ;
+    color: lime;
+    font-family:'Franklin Gothic Medium';
 }
 .container {
     margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-}
-
-.titulo{
-    justify-content: center;
-    color: rgb(46, 60, 182)
 }
 
 .section1 {
@@ -58,15 +53,19 @@ button{cursor: pointer;}
     color:black;
 }
 
-body {
-    background-color: #979494 !important;
+body{
+    background-color: #ffffff !important;
     image-rendering: auto;
-    
 }
+
+
+    
+/*footer*/  
 footer {
     background: black;
     padding: 50px 0 20px 0;
     position: relative;
+    margin-top: 120px;
 }
 footer h4 {
     color: #919496;
@@ -88,7 +87,7 @@ footer ul li {
     float: right;
     margin: 0 5px;
 }
-
+/*Fim do footer*/
 
 /*
 #Português:hover{
