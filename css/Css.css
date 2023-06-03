@@ -1,16 +1,13 @@
 /* Cabeçalho */
 header{
- height: 130px;
- border-color: rgba(15, 15, 15, 0.932);
-border-bottom: solid 2px;
-border-bottom-right-radius: 5px;
+background-color: #38B6FF;
+height: 130px;
 }
 .logo{
     width: 10%;
     height: 100%;
     position: absolute;    
     margin-right: 100%;
-
 }
 
 .btn{
@@ -20,23 +17,19 @@ border-bottom-right-radius: 5px;
     border-radius: 100px !important;
     height: 50px;
     width: 200px;
-}
-section{
+    background-color: #007bff;
     margin-top: 5%;
 }
+section{
+    margin-top: 5%;;
+}
 section h1{
-    color: rgb(46, 60, 182);
-    font-family:'Franklin Gothic Medium'
-    ;
+    font-family:'Franklin Gothic Medium';
 }
 .container {
-    margin-top: auto;
+    margin: auto;
     text-align: center;
-}
-
-.titulo{
-    justify-content: center;
-    color: rgb(46, 60, 182)
+    align-items: center;
 }
 
 .section1 {
@@ -54,15 +47,32 @@ button{cursor: pointer;}
 }
 
 .navCor{
-    background-color: rgb(82, 80, 80);
+    background-color: #38B6FF;
     color:black;
 }
 
-body {
-    background-color: #979494 !important;
+body{
+    background-color: #e0f4ff !important;
     image-rendering: auto;
-    
 }
+
+
+/* Imagens */
+#Grampos{
+    background-color: #e0f4ff;
+    width: 150px;
+    float: left;
+    bottom: 0;
+}
+#Livro{
+    background-color: #e0f4ff;
+    float: right;
+    margin-top: 5%;
+    width: 200px;
+}
+/*fim imagens*/
+
+/*footer*/  
 footer {
     background: black;
     padding: 50px 0 20px 0;
@@ -88,7 +98,7 @@ footer ul li {
     float: right;
     margin: 0 5px;
 }
-
+/*Fim do footer*/
 
 /*
 #Português:hover{
