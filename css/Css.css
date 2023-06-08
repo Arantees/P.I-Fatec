@@ -1,14 +1,11 @@
 /* Cabeçalho */
 header{
-background-color: #38B6FF;
+background-color: #ccc;
 height: 130px;
 }
-.logo{
-    width: 10%;
-    height: 100%;
-    position: absolute;    
-    margin-right: 100%;
-}
+ .mt-5{
+    margin-top: 50%;
+ }
 
 .btn{
     color: black !important;
@@ -17,7 +14,7 @@ height: 130px;
     border-radius: 100px !important;
     height: 50px;
     width: 200px;
-    background-color: #007bff;
+    background-color: #00bf63;
     margin-top: 5%;
 }
 section{
@@ -47,25 +44,33 @@ button{cursor: pointer;}
 }
 
 .navCor{
-    background-color: #38B6FF;
-    color:black;
+    background-color: #ccc;  
+    
+}
+
+.black{
+    color: black;
+}
+
+.text-black{
+    color: black;    
 }
 
 body{
-    background-color: #e0f4ff !important;
+    background-color: #ccc !important;
     image-rendering: auto;
 }
 
 
 /* Imagens */
 #Grampos{
-    background-color: #e0f4ff;
+    background-color: #ccc;
     width: 150px;
     float: left;
     bottom: 0;
 }
 #Livro{
-    background-color: #e0f4ff;
+    background-color: #ccc;
     float: right;
     margin-top: 5%;
     width: 200px;
