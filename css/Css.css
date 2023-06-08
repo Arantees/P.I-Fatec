@@ -72,6 +72,29 @@ body{
 }
 /*fim imagens*/
 
+/*Português*/
+.alternativa{
+    font-family:'arial';
+    text-align: justify;
+}
+.alternativa button {
+    border-radius: 100%;
+    padding: 15px;
+    border: 3px;
+}
+
+#correta :active {
+    background-color: lime !important;
+    border: 3px;
+
+}
+#false :active {
+    background-color: red !important;
+    border: 3px;
+
+}
+
+
 /*footer*/  
 footer {
     background: black;
