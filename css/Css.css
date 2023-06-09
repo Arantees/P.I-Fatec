@@ -6,6 +6,12 @@ height: 130px;
  .mt-5{
     margin-top: 50%;
  }
+ .titulo{
+    font-size: 3rem;
+ }
+ .tituloVerde{
+    color: #00bf63;
+ }
 
 .btn{
     color: black !important;
@@ -29,8 +35,8 @@ section h1{
     align-items: center;
 }
 
-.section1 {
-    margin-top: 130px;
+section p {
+    font-size: 1.3rem;
 }
 button{cursor: pointer;}
 
@@ -42,25 +48,59 @@ button{cursor: pointer;}
     background-color: blue;
     color: white;
 }
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
 
 .navCor{
     background-color: #ccc;  
     
 }
 
-.black{
+.tamanhoTexto{
+    font-size: 2rem;
+}
+
+.quadradoVerde {
+    background-color: #00bf63;
     color: black;
+    border-radius: 3rem;
+    padding: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.imgGrampo{
+    transform: rotate(40deg);
+}
+.imgLivro {
+    transform: rotate(-10deg);
+}
+
+.buttonFaculdades button{
+    border-radius: 1rem;
+    background-color: #00bf63;
+    margin-top: 1rem;
 }
 
 .text-black{
-    color: black;    
+    color: black; 
+    font-weight: bold; 
+    font-size: 1.1em;
 }
 
 body{
+    font-family: 'League Spartan', sans-serif !important;
     background-color: #ccc !important;
     image-rendering: auto;
 }
 
+::after{
+    color: black;
+}
 
 /* Imagens */
 #Grampos{
@@ -108,12 +148,12 @@ footer {
 }
 footer h4 {
     color: #919496;
-    font-size: 0.8em;
+    font-size: 1.5rem;
     text-transform: uppercase;
 }
 footer .navbar-nav a {
     color: white;
-    font-size: 0.8em;
+    font-size: 1.1rem;
 }
 footer .navbar-nav a:hover {
     color: #9bf0e1;
@@ -125,6 +165,7 @@ footer ul {
 footer ul li {
     float: right;
     margin: 0 5px;
+    
 }
 
 center {
